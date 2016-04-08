@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Welcome to Rock-a-Ball written tutorial !"
 date:   2016-04-07
 tags: [unity3d]

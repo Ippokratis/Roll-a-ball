@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Introduction to Roll-a-Ball"
 date:   2016-04-08
 tags: [unity3d]
