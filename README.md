@@ -1,2 +1,3 @@
 # hello-world
-roll-a-ball unity3d written tutorial
+Roll-a-ball written tutorial for Unity
+Made by Ippokratis Bournellis
