@@ -3,5 +3,4 @@ layout: page
 title: About this blog
 ---
 
-In this blog you will find tips 'n 
-tricks about Unity shaders and scripts.    
+In this blog you will find a written version of the Roll-a-ball Unity tutorial
