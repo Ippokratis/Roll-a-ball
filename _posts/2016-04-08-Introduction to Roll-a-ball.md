@@ -1,12 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "INTRODUCTION TO ROLL-A-BALL"
+title:  "Introduction to Roll-a-Ball"
 date:   2016-04-08
 tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
-# **INTRODUCTION TO ROLL-A-BALL**#
 	
 In this beginner assignment we are going
 to make a very simple but playable game to
