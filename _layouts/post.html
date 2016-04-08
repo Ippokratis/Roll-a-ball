@@ -1,0 +1,51 @@
+---
+layout: default
+comments: true
+page-type: post
+---
+<main role="main" class="cf">
+<article class="posts">
+ <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+            <h2>{{page.title}}</h2>
+            <time itemprop="dateCreated" datetime="{{page.date}}">
+                {{ page.date | date: "%B %-d, %Y" }}</time>
+        </header>
+        {{content}}
+        {% if page.comments %}
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'ippocardiocomblog'; // required: replace example with your forum shortname
+            var disqus_developer = 1; // Comment out when the site is live
+            var disqus_identifier = "{{ page.url }}";
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//ippocardiocomblog.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        {% endif %}
+
+        <footer>
+        <p>Posted in {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}.html" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        </footer>
+    </article>
+    <section class="post-links">
+    <p>Read more:</p>
+  {% if page.previous.url %}
+    <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}.html">{{page.previous.title}}</a></p>
+  {% endif %}
+  {% if page.next.url %}
+    <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}.html">{{page.next.title}}</a></p>
+  {% endif %}
+	</section>
+    </article>
+        {% include sidebar.html %}
+</main>

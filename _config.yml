@@ -1,2 +1,15 @@
-markdown: redcarpet
-base: /Roll-a-ball
+# Site settings
+title: Roll - a - Ball
+description: "Roll a ball written tutorial"
+
+baseurl: /Roll-a-ball
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+# Gems
+gems: [jekyll-paginate]
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
