@@ -3,10 +3,9 @@ layout: post
 comments: false
 title:  "00-Introduction to Roll-a-Ball"
 date:   2016-04-08 14:40:45
-tags: [unity3d]
+tags: [introduction]
 excerpt_separator: <!--more-->
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RFlh8pTf4DU" frameborder="0" allowfullscreen></iframe>
 
 In this beginner assignment we are going
 to make a very simple but playable game to
@@ -15,6 +14,8 @@ beginner tutorial modules.
 <!--more-->
 We will be making a roll-a-ball game where
 we will collect special game objects.
+
+![My helpful screenshot]({{site.baseurl}}/images/posts/00-Intro.gif)
 	
 We will see how to create new game objects,
 add components to these game objects,
@@ -43,7 +44,6 @@ when all of the game objects
 have been picked up.    
 	
 We won't need to import any assets for this project.    
-
 We won't be using models, textures,
 sounds or animations for this assignment.    
 	
@@ -51,5 +51,10 @@ We will simply use the primitive shapes
 like cubes, spheres and planes
 provided by Unity.    
 	
-To begin, start with assignment 1 where we
-setup our game and starting game objects.    
+You can watch the above intro in the following video :
+
+<div align = "center">
+<iframe width="502" height="315" src="https://www.youtube.com/embed/RFlh8pTf4DU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+ Let's move to the [next tutorial !]({{ site.baseurl }}{% post_url 2016-04-08-01-Setting-up-the-game  %})
