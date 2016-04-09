@@ -6,9 +6,8 @@ date:   2016-04-08 14:40:45
 tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=RFlh8pTf4DU
-" target="_blank"><img src="http://img.youtube.com/vi/RFlh8pTf4DU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="502" height="300" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RFlh8pTf4DU" frameborder="0" allowfullscreen></iframe>
+
 In this beginner assignment we are going
 to make a very simple but playable game to
 use many of the basic concepts from the
