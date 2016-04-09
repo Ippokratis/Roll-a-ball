@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: false
-title:  "Setting up the game"
-date:   2016-04-08
+title:  "01-Setting up the game"
+date:   2016-04-08 14:40:46
 tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
