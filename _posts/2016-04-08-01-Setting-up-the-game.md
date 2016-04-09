@@ -6,9 +6,7 @@ date:   2016-04-08 14:40:46
 tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
-<a href="http://www.youtube.com/watch?feature=player_embedded&W_fAidYRGzs
-" target="_blank"><img src="http://img.youtube.com/vi/W_fAidYRGzs/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="502" height="300" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W_fAidYRGzs" frameborder="0" allowfullscreen></iframe>
 
 Let's begin by creating a new project.
 

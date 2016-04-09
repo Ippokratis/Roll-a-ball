@@ -6,9 +6,7 @@ date:   2016-04-09 01:40:56
 tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=RFlh8pTf4DU
-" target="_blank"><img src="http://img.youtube.com/vi/RFlh8pTf4DU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="502" height="300" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hSg3e1M3hKY" frameborder="0" allowfullscreen></iframe>
 
 Now that we've finished our game we need to
 present it to our players.
