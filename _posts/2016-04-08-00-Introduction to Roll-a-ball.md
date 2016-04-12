@@ -15,7 +15,7 @@ beginner tutorial modules.
 We will be making a roll-a-ball game where
 we will collect special game objects.
 
-![My helpful screenshot]({{site.baseurl}}/images/posts/00-Intro.gif)
+![Completed game]({{site.baseurl}}/images/posts/00-Intro.gif)
 	
 We will see how to create new game objects,
 add components to these game objects,
