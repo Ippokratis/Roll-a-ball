@@ -462,8 +462,7 @@ Now enter play mode.
 
 Whoa! Way too fast!
 But changes are fast too.
- Exit play mode
-and change the value to 500.
+Exit play mode and change the value to 500.
 
 Hit Play.
 

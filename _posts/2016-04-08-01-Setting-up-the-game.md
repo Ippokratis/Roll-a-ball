@@ -28,29 +28,39 @@ And then I will click on Create Project
 to make a new project.
 We now have our new project with a new empty scene.
 
-
 ![Create new project]({{site.baseurl}}/images/posts/01-02-newProjectSetup.gif)
 
 Before creating anything in the new scene
 we need to save our scene.
 We can save our scene by going to File - Save Scene
 or by using the keyboard shortcut (Ctrl-S for Windows, Option-S for Mac).
+
 ![Save scene]({{site.baseurl}}/images/posts/01-03-save-scene.gif)
+
 I'm going to save this scene in the Assets directory
 in a new folder called _scenes.
 The underscore is optional, I use it to sort this
 folder to the top of my project window.
 Now I'm going to call the scene MiniGame.
+
+![Save scene dialog]({{site.baseurl}}/images/posts/01-04-save-scene-dialog.gif)
+
 We can now see in our Scenes folder
 the scene called MiniGame.
-![Save scene dialog]({{site.baseurl}}/images/posts/01-04-save-scene-dialog.gif)
+
+![Save scene result]({{site.baseurl}}/images/posts/01-05-save-scene-result.gif)
 
 Let's create our game board, or play field.
 
 To do this we will use a stock Unity plane.
 We can create this plane from either
-Game Object - 3D Object - Plane, 
+Game Object - 3D Object - Plane,
+![Create plane from the menu]({{site.baseurl}}/images/posts/01-06-create-plane-menu.gif)
+ 
 or from inside the Hierarchy view using the Create menu.
+
+![Create plane from the Hierarchy]({{site.baseurl}}/images/posts/01-07-create-plane-hierarchy.gif)
+
 Rename this game object Ground.
 We can do this by either selecting the game object
 and using the enter or return keys
@@ -58,6 +68,8 @@ to allow editing, or by clicking on the
 game object twice, slowly.
 Type in the new name or hit enter or return
 to confirm this change.
+
+![Rename plane]({{site.baseurl}}/images/posts/01-09-rename-plane.gif)
 
 Reset the transform component using the context
 sensitive gear menu in the upper right.
@@ -80,7 +92,7 @@ Select the Gizmos menu in the Scene view
 and deselect Show Grid.
 
 We need to change the scale of the ground plane.
-We can do this in a number of ways..
+We can do this in a number of ways.
 We can use the Scale tool,
 simply grab the axis handle you want to change
 and drag the handle rescaling the plane.
@@ -181,7 +193,7 @@ change the Transform Rotation on the Y axis to 60.
 This will give better shape to our player sphere.
 Now we have a player game object and a background play field.
 
-You can watch the above steps in the following tutorial:
+You can watch the above steps in the following video tutorial:
 
 <div align = "center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_fAidYRGzs" frameborder="0" allowfullscreen></iframe>
