@@ -229,5 +229,5 @@ You can watch all of the above steps in the following video tutorial:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_fAidYRGzs" frameborder="0" allowfullscreen></iframe>
 </div>
 
- In the [next tutorial !]({{ site.baseurl }}{% post_url  2016-04-09-02-Moving the player %}) we will add player motion
+ In the [next tutorial]({{ site.baseurl }}{% post_url  2016-04-09-02-Moving the player %}) we will make the player move.
  
