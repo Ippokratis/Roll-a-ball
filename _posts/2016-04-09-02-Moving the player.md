@@ -7,7 +7,6 @@ tags: [unity3d]
 excerpt_separator: <!--more-->
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7C7WWxUxPZE" frameborder="0" allowfullscreen></iframe>
 
 Now we are going to move the player game object.
 
@@ -17,12 +16,10 @@ game object to behave.
 We want to have the sphere roll around on the
 game area, bump in to walls, stay on the ground
 and not fly off in to space.
-
 We want to be able to collide with our collectible
 game objects and pick them up when we do.
 
 This requires physics.
-
 To use physics the game object needs
 a rigidbody component attached.
 
@@ -36,30 +33,37 @@ and select Physics - Rigid Body
 which would attach this component to the game object
 we have selected.
 
+![Add rigidbody from the menu]({{site.baseurl}}/images/posts/02/01-menu-add-rigidbody.gif)
+
 Or use the Add Component button in the Inspector
 choosing Physics - Rigid Body.
 
+![Add rigidbody from the component button]({{site.baseurl}}/images/posts/02/02-component-add-rigidbody.gif)
+
 Either way this attached the rigidbody
 component to the selected game object.
+
+![Demonstrate the added rigidbody component]({{site.baseurl}}/images/posts/02/03-rigidbody-added.gif)
 
 If we choose to we can rearrange the
 order of the components on the game object
 using the context sensitive gear menu
 in the upper right of the component.
-
 Doing this has no effect on the performance of our game.
-
 However, having a consistent order to the components
 on our game object may help us speed up our development
 by keeping or maintaining an organised
 project and hierarchy.
 
+![Component reorder demontration]({{site.baseurl}}/images/posts/02/04-reorder-components.gif)
+
 Don't forget, you can collapse or expand
 the Component view by clicking on the component's title bar.
-
 We should note that whenever we do this
 this will also toggle the relevant
 gizmos for that component in the Scene view.
+
+![Colapse and expand components demonstration]({{site.baseurl}}/images/posts/02/05-collapse-expand-components.gif)
 
 Now we need to get the player object moving
 under our control.
@@ -68,20 +72,17 @@ To do this we need to get input from our player
 through the keyboard and we need to apply
 that input to the player game object as forces
 to move the sphere in the scene.
-
 We will do this by using a script that
 we attach to the player game object.
-
 First let's create a folder in our project view
 to hold our script assets.
-
 In the Project view click on the Create menu
 and choose Create Folder.
-
 Rename this folder Scripts.
 
-Next let's create a new C# script.
+![Colapse and expand components demonstration]({{site.baseurl}}/images/posts/02/06-create-folder.gif)
 
+Next let's create a new C# script.
 To create a new script we have some choices.
 
 We can choose Assets - Create
@@ -92,10 +93,8 @@ Or we can use the Create menu in the project view.
 But what might be more efficient in this case
 would be to select the player game object
 and use the Add Component button in the Inspector.
-
 The Add Component menu contains the selection
 New Script.
-
 This allows us to both create and attach
 a script in one step.
 
@@ -470,4 +469,11 @@ That's a little better.
 
 Congratulations, we can now move our character.
 
-In the next assignment we'll talk about how to move the camera.
+You can watch all of the above steps in the following video tutorial:
+
+<div align = "center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7C7WWxUxPZE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+ In the [next tutorial]({{ site.baseurl }}{% post_url  2016-04-09-03-Moving the camera %}) we'll talk about how to move the camera.
+In the next assignment 
